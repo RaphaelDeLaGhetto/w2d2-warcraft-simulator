@@ -9,4 +9,10 @@ class Barracks
   def can_train_footman?
     true
   end
+
+  def train_footman
+    @gold -= 135
+    @food -= 2
+    Footman.new
+  end
 end
