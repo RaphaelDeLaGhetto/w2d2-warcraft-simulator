@@ -10,4 +10,11 @@ class Footman < Unit
     @attack_power = 10
   end
 
+  def attack!(enemy)
+    enemy.damage(@attack_power)
+  end
+
+  def damage(dmg)
+    @health_points -= dmg
+  end
 end
