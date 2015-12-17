@@ -16,7 +16,10 @@ git clone https://github.com/RaphaelDeLaGhetto/w2d2-warcraft-simulator.git
 
 # Test
 
+Where _N_ is a value between _01_,_02_..._10_.
+
 ```
+bundle exec rspec spec/test_N.rb
 ```
 
 
