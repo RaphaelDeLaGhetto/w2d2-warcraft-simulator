@@ -9,11 +9,6 @@ Warcraft simulator exercise for W2D2 of lighthouselabs.com web development bootc
 git clone https://github.com/RaphaelDeLaGhetto/w2d2-warcraft-simulator.git
 ```
 
-# Run
-
-```
-```
-
 # Test
 
 Where _N_ is a value between _01_,_02_..._10_.
