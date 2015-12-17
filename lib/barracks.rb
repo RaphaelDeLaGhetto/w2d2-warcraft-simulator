@@ -7,10 +7,12 @@ class Barracks
   end
 
   def can_train_footman?
-    true
+    return true if self.food >= 2 && self.gold >= 135
+    false
   end
 
   def train_footman
+    return if !can_train_footman?
     @gold -= 135
     @food -= 2
     Footman.new
